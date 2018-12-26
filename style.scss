@@ -44,7 +44,7 @@ header {
 	}
 
 	nav {
-		@media screen and (max-width: 870px) {
+		@media screen and (max-width: 750px) {
 			display: block;
 			float: none;
 			text-align: center;
@@ -63,7 +63,7 @@ header {
 			padding: 0;
 			list-style-type: none;
 			float: right;
-			@media screen and (max-width: 870px) {
+			@media screen and (max-width: 750px) {
 				margin-right: 0;
 				float: none;
 			}
@@ -71,9 +71,6 @@ header {
 
 		li {
 			display: inline-block;
-			@media screen and (max-width: 870px) {
-				width: 100%;
-			}
 
 			a {
 				display: block;
@@ -187,7 +184,6 @@ header {
 		background-color: rgba(0, 0, 0, 0.5);
 		@media screen and (max-width: 870px) {
 			display: inline-block;
-			background: none;
 		}
 	}
 
@@ -198,8 +194,6 @@ header {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		@media screen and (max-width: 870px) {
-			background-color: rgba(0, 0, 0, 0.5);
-			border-radius: 15%;
 		}
 
 		i {
@@ -237,7 +231,6 @@ header {
 			margin: 0 auto;
 			@media screen and (max-width: 870px) {
 				display: inline-block;
-				background: none;
 			}
 
 			p {

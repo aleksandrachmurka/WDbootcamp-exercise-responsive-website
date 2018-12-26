@@ -123,8 +123,8 @@
 .hero {
   background-image: url("https://image.ibb.co/b0GY5R/rawpixel_com_323215.jpg"); }
 
-.sun {
-  background-image: url("https://image.ibb.co/bWOhn6/sun_fireball_solar_flare_sunlight_87611.jpg"); }
+.autumn {
+  background-image: url("https://image.ibb.co/e5kPVR/fall_autumn_red_season.jpg"); }
 
 .moon {
   background-image: url("https://image.ibb.co/ciCTum/full_moon_moon_bright_sky_47367.jpg"); }
@@ -143,15 +143,6 @@
 
 .spring {
   background-image: url("https://image.ibb.co/kjLxjm/pexels_photo_102896.jpg"); }
-
-.summer {
-  background-image: url("https://image.ibb.co/gPQ2H6/sunflower_sun_summer_yellow.jpg"); }
-
-.autumn {
-  background-image: url("https://image.ibb.co/e5kPVR/fall_autumn_red_season.jpg"); }
-
-.winter {
-  background-image: url("https://image.ibb.co/ccJBAR/pexels_photo_235621.jpg"); }
 
 .text {
   background-image: url("http://via.placeholder.com/900x800"); }
@@ -182,7 +173,7 @@ header {
   @media screen and (max-width: 870px) {
     header {
       overflow: auto; } }
-  @media screen and (max-width: 870px) {
+  @media screen and (max-width: 750px) {
     header nav {
       display: block;
       float: none;
@@ -198,15 +189,12 @@ header {
     padding: 0;
     list-style-type: none;
     float: right; }
-    @media screen and (max-width: 870px) {
+    @media screen and (max-width: 750px) {
       header nav ul {
         margin-right: 0;
         float: none; } }
   header nav li {
     display: inline-block; }
-    @media screen and (max-width: 870px) {
-      header nav li {
-        width: 100%; } }
     header nav li a {
       display: block;
       line-height: 50px;
@@ -286,18 +274,13 @@ header {
     background-color: rgba(0, 0, 0, 0.5); }
     @media screen and (max-width: 870px) {
       .gallery .layer {
-        display: inline-block;
-        background: none; } }
+        display: inline-block; } }
   .gallery .box {
     position: absolute;
     margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-    @media screen and (max-width: 870px) {
-      .gallery .box {
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 15%; } }
     .gallery .box i {
       font-size: 25px;
       padding: 5px;
@@ -323,8 +306,7 @@ header {
     margin: 0 auto; }
     @media screen and (max-width: 870px) {
       .team .worker .layer {
-        display: inline-block;
-        background: none; } }
+        display: inline-block; } }
     .team .worker .layer p {
       line-height: 200px;
       margin: 0;
