@@ -1,7 +1,7 @@
 ﻿Responvie website built according to mockup
 
 ## You can view it here
-https://aleksandrachmurka.github.io/WDbootcamp-exercise-responsive-website/
+https://aleksandrachmurka.github.io/responsive_website/
 
 ## Responsive
 * on mobile, tablet and desktop
